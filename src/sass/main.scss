@@ -58,7 +58,16 @@ p {
   position: relative;
   width: 15%;
   overflow: hidden;
+  margin-left: 250px;
 }
+.topSection {
+  margin-top: 20px;
+}
+
+.iconSection {
+  margin-top: 280px;
+}
+
 
 .iconContainer {
   width: 50px;
@@ -102,4 +111,9 @@ i {
   position: absolute;
   top: 10px;
   left: 12px;
+}
+
+.dateandtime {
+  float: left;
+  clear: both;
 }
