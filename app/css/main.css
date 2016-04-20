@@ -43,29 +43,7 @@ p {
 
 sidebar {
   width: 20%;
-  float: left; }
-
-.outerCircle {
-  background: #4BD5EE;
-  border-radius: 100%;
-  width: 45%;
-  height: 50px;
-  position: relative; }
-
-.innerCircle {
-  background: black;
-  border-radius: 100%;
-  width: 70%;
-  height: 35px;
-  position: absolute;
-  top: 7px;
-  left: 8px; }
-
-.fa {
-  color: #FFFF66;
-  font-size: 30px;
-  position: absolute;
-  top: 3px;
-  left: 5px; }
+  float: left;
+  overflow: auto; }
 
 /*# sourceMappingURL=main.css.map */
