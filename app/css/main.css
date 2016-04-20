@@ -1,16 +1,33 @@
-.box {
-  border: 1px solid #FFFF66;
-  border-radius: 5px;
-  background: black; }
-
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  font-family: "Droid Sans", arial, verdana, sans-serif; }
+  font-family: "Droid Sans", arial, verdana, sans-serif;
+  overflow: auto; }
+
+.boxcontainer {
+  width: 80%;
+  float: right; }
 
 .box {
+  float: right;
+  border: 1px solid #FFFF66;
+  border-radius: 5px;
+  background: black;
   padding: 30px 5%;
-  margin: 10px; }
+  margin: 10px;
+  position: relative; }
+
+header::after {
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 20px 0;
+  border-color: transparent #4BD5EE transparent transparent; }
 
 header {
   font-size: 25px;
@@ -23,5 +40,32 @@ p {
   margin-bottom: 30px;
   font-size: 20px;
   color: #FFFF66; }
+
+sidebar {
+  width: 20%;
+  float: left; }
+
+.outerCircle {
+  background: #4BD5EE;
+  border-radius: 100%;
+  width: 45%;
+  height: 50px;
+  position: relative; }
+
+.innerCircle {
+  background: black;
+  border-radius: 100%;
+  width: 70%;
+  height: 35px;
+  position: absolute;
+  top: 7px;
+  left: 8px; }
+
+.fa {
+  color: #FFFF66;
+  font-size: 30px;
+  position: absolute;
+  top: 3px;
+  left: 5px; }
 
 /*# sourceMappingURL=main.css.map */
