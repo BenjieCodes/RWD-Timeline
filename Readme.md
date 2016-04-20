@@ -1,6 +1,6 @@
 # Project Description
 
-This is a basic template for starting projects.
+This assignment will walk you through creating a fully responsive section of a website from start to finish.
 
 ## Deployment
 
