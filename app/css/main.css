@@ -14,7 +14,8 @@
   border-radius: 5px;
   background: black;
   padding: 30px 5%;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   position: relative; }
 
 header::after {
@@ -41,23 +42,17 @@ p {
   font-size: 20px;
   color: #FFFF66; }
 
-.mainSection {
-  margin: 0;
-  position: relative;
-  width: 15%;
-  overflow: hidden;
-  margin-left: 250px; }
-
-.topSection {
-  margin-top: 20px; }
-
-.iconSection {
-  margin-top: 280px; }
+.icons {
+  overflow: auto;
+  max-width: 15%;
+  padding-top: 21px;
+  margin-left: 22%; }
 
 .iconContainer {
-  width: 50px;
+  width: 32%;
   height: 50px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 299px; }
 
 .outerContainer {
   width: 100%;
@@ -72,7 +67,7 @@ p {
   position: absolute; }
 
 .innerContainer {
-  width: 35px;
+  width: 71%;
   height: 35px;
   position: absolute; }
 
@@ -91,8 +86,8 @@ i {
   top: 10px;
   left: 12px; }
 
-.dateandtime {
-  float: left;
-  clear: both; }
+.dtcontainer {
+  max-width: 15%;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */

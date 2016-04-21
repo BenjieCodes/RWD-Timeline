@@ -20,7 +20,8 @@ $swBlue: #4BD5EE;
   border-radius: 5px;
   background: black;
   padding: 30px 5%;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -53,27 +54,24 @@ p {
   color: $swYellow;
 }
 
-.mainSection {
-  margin: 0;
-  position: relative;
-  width: 15%;
-  overflow: hidden;
-  margin-left: 250px;
-}
-.topSection {
-  margin-top: 20px;
+
+.icons {
+  overflow: auto;
+  max-width: 15%;
+  padding-top: 21px;
+  margin-left: 22%;
 }
 
 .iconSection {
-  margin-top: 280px;
 }
-
 
 .iconContainer {
-  width: 50px;
+  width: 32%;
   height: 50px;
   position: relative;
+  margin-bottom: 299px;
 }
+
 
 .outerContainer {
   width: 100%;
@@ -90,7 +88,7 @@ p {
 }
 
 .innerContainer {
-  width: 35px;
+  width: 71%;
   height: 35px;
   position: absolute;
 }
@@ -113,7 +111,11 @@ i {
   left: 12px;
 }
 
-.dateandtime {
+.dtcontainer {
+  max-width: 15%;
   float: left;
-  clear: both;
+}
+
+.dateandtime {
+
 }
